@@ -45,4 +45,13 @@ ret = lseek(file1,0,SEEK_END);
 直接IO需要进行的三个步骤:
 ![image](https://github.com/1AoB/Learning_file_operations/assets/78208268/f5f40977-e6ad-43ab-8d98-9feff050face)
 
+# 注意！
+![image](https://github.com/1AoB/Learning_file_operations/assets/78208268/f70e7a6b-befc-4876-b044-46a903845ebd)
+O_DIRECT是:跳过高速页缓存,直接存到物理磁盘
+
+O_SYNC是:不跳过高速页缓存,到了高速页缓存后,马不停蹄的存到物理磁盘,才返回写入成功.
+
+以上两个都不写:不跳过高速页缓存,到了高速页缓存后,此时返回写入成功并在高速页缓存停留一会之后,才存入到物理磁盘.(如果在停留的这会时间段内,服务器宕机,数据就会丢失无法找回)
+
+
 
