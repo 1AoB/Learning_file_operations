@@ -42,3 +42,7 @@ ret = lseek(file1,0,SEEK_END);
 通常直接I/O跟异步I/O结合使用会得到较好的性能。
 ![image](https://github.com/1AoB/Learning_file_operations/assets/78208268/76b17439-5252-4ea5-aa6d-5281fa02f37e)
 
+直接IO需要进行的三个步骤:
+![image](https://github.com/1AoB/Learning_file_operations/assets/78208268/f5f40977-e6ad-43ab-8d98-9feff050face)
+
+
