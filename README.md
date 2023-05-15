@@ -34,7 +34,7 @@ ret = lseek(file1,0,SEEK_END);
 ## 标准文件访问方式
 ![image](https://github.com/1AoB/Learning_file_operations/assets/78208268/75e593cc-1e7f-4606-b736-2a151fe56ccc)
 
-## 直接IO
+## 直接IO(open函数中增加O_DIRECT)
 直接IO 绕过缓存，不会出现write成功数据丢失的情况，血案不再重演.
 
 注意：直接I/O的缺点就是如果访问的数据不在应用程序缓存中，
