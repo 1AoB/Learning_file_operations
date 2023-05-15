@@ -29,3 +29,11 @@ ps -ef | grep 进程名
 ret = lseek(file1,0,SEEK_END);
 ```
 # Linux的运行空间 = 内核空间 + 用户空间
+
+# I/O的两种访问方式
+## 标准文件访问方式
+![image](https://github.com/1AoB/Learning_file_operations/assets/78208268/75e593cc-1e7f-4606-b736-2a151fe56ccc)
+
+## 直接IO
+![image](https://github.com/1AoB/Learning_file_operations/assets/78208268/76b17439-5252-4ea5-aa6d-5281fa02f37e)
+
