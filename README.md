@@ -47,6 +47,7 @@ ret = lseek(file1,0,SEEK_END);
 
 # 注意！
 ![image](https://github.com/1AoB/Learning_file_operations/assets/78208268/f70e7a6b-befc-4876-b044-46a903845ebd)
+
 O_DIRECT是:跳过高速页缓存,直接存到物理磁盘
 
 O_SYNC是:不跳过高速页缓存,到了高速页缓存后,马不停蹄的存到物理磁盘,才返回写入成功.
