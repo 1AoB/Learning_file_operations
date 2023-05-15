@@ -22,3 +22,9 @@ ps -ef | grep 进程名
 第二卷是系统调用
 
 第三卷是库调用
+
+# 通过lseek,读取到file1这个文件的大小
+```c
+//file1 size
+ret = lseek(file1,0,SEEK_END);
+```
