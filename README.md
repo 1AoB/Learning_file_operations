@@ -66,4 +66,7 @@ O_SYNC是:不跳过高速页缓存,到了高速页缓存后,马不停蹄的存�
 - fsync - 将fd对应文件的块缓冲区**立即写入磁盘**，并等待实际写磁盘操作结束返回。**(很明显,这个才是我们想要的)**
 - fdatasync - 类似fsync,但**只影响文件的数据部分(也就是说它只同步文件内容)**。而除数据外，fsync 还会同步更新文件属性。
 
+# 8.Linux 文件IO流程图
+![image](https://github.com/1AoB/Learning_file_operations/assets/78208268/64b3967b-7527-46c8-a494-a0deb0c8fa5e)
+
 
