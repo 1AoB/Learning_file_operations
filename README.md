@@ -17,3 +17,6 @@ ps -ef | grep 进程名
 
 ![image](https://github.com/1AoB/Learning_file_operations/assets/78208268/8a84e4fc-1bd0-42c9-9b3d-f6e4d63a4d24)
 
+# man
+第二卷是系统调用
+第三卷是库调用
