@@ -28,3 +28,4 @@ ps -ef | grep 进程名
 //file1 size
 ret = lseek(file1,0,SEEK_END);
 ```
+# Linux的运行空间 = 内核空间 + 用户空间
