@@ -146,7 +146,7 @@ int flock_set(int fd, int type)
 		}
 	}
 
-  flock.l_type = type;
+  	flock.l_type = type;
 	flock.l_whence = SEEK_SET;//从文件开头上锁
 	flock.l_start = 0;//偏移0个字节
 	flock.l_len = 0;//0 means lock to EOF,即:0表示上锁的部分一直持续到文件尾部   
